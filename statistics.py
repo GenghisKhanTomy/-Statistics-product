@@ -44,4 +44,6 @@ data2 = [240, 259, 230, 366, 368, 499, 683]
 
 ans = statistics.correlation_coefficient(data, data2)
 print("相関係数：", ans)
-print(sum(data), sum(data2), sum(statistics.deviation(data)), sum(statistics.deviation(data2)))
+"""
+相関係数： 0.9459311292004333
+"""
